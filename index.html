@@ -936,7 +936,9 @@
       }
     });
 
+
     $('.owl-carousel').owlCarousel({
+      lazyLoad:true, 
       loop: true,
       margin: 10,
       nav: false,
@@ -1005,59 +1007,6 @@
       beginAt: 100,
     });
 
-    // $(window).scroll(function () {
-
-    //   $(window).scroll(function () {
-    //     var scrollPosition = $(window).scrollTop() - 30;
-    //     //get the position of the containers
-    //     var one = $("#header").offset().top,
-    //       two = $("#about-section").offset().top,
-    //       three = $("#service-section").offset().top,
-    //       four = $("#potfolio-section").offset().top,
-    //       five = $("#team-section").offset().top,
-    //       six = $("#prices-section").offset().top,
-    //       seven = $("#contact-section").offset().top;
-
-    //     var nav1 = $("#nav1"),
-    //       nav2 = $("#nav2"),
-    //       nav3 = $("#nav3"),
-    //       nav4 = $("#nav4"),
-    //       nav5 = $("#nav5"),
-    //       nav6 = $("#nav6"),
-    //       nav7 = $("#nav7");
-
-
-
-    //     if (scrollPosition >= one) {
-    //       nav1.siblings().removeClass("active1");
-    //       nav1.addClass("active1");
-    //     }
-    //     if (scrollPosition >= two) {
-    //       nav2.siblings().removeClass("active1");
-    //       nav2.addClass("active1");
-    //     }
-    //     if (scrollPosition >= three) {
-    //       nav3.siblings().removeClass("active1");
-    //       nav3.addClass("active1");
-    //     }
-    //     if (scrollPosition >= four) {
-    //       nav4.siblings().removeClass("active1");
-    //       nav4.addClass("active1");
-    //     }
-    //     if (scrollPosition >= five) {
-    //       nav5.siblings().removeClass("active1");
-    //       nav5.addClass("active1");
-    //     }
-    //     if (scrollPosition >= six) {
-    //       nav6.siblings().removeClass("active1");
-    //       nav6.addClass("active1");
-    //     }
-    //     if (scrollPosition >= seven) {
-    //       nav7.siblings().removeClass("active1");
-    //       nav7.addClass("active1");
-    //     }
-    //   });
-    // });
 
     // Basice Code keep it 
     $(document).ready(function () {
