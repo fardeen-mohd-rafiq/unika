@@ -918,6 +918,7 @@
     var owl = $('#owl-partners');
     owl.owlCarousel({
       loop: true,
+      margin : 15,
       items: 4,
       autoplayHoverPause: false,
       dots: false,
@@ -932,7 +933,7 @@
           items: 2
         },
         1000: {
-          items: 4
+          items: 3
         }
       }
     });
@@ -1042,7 +1043,7 @@
       $('.menu-bar li a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        if (refElement.position().top - 30 <= scrollPos && refElement.position().top + refElement.height() +
+        if (refElement.position().top - 20 <= scrollPos && refElement.position().top + refElement.height() +
           1000 > scrollPos) {
           $('.menu-bar li a').removeClass("active1");
           currLink.addClass("active1");
